@@ -1,0 +1,57 @@
+.menu{
+	width: 23.33333%;
+}
+
+.menu>div a:not(:first-child){
+	padding-top: 15px;
+	padding-bottom: 15px
+}
+
+.menu i {
+	margin-right: 5px
+}
+
+.menu a{
+	transition: all .5s ease-in-out
+}
+
+.menu .active-link{
+	background-color: #f5f5f5
+}
+
+.dashboard{
+	width: 76.666667%;
+}
+
+.dashboard .panel-body{
+	padding: 40px;
+}
+
+.dashboard .widgets{
+	overflow: hidden;
+	margin-bottom: 40px
+}
+
+.dashboard .widgets div {
+	padding:15px;
+	float: left;
+	width: 23.50%;
+	text-align: center;
+    height: 131px;
+    border: solid 1px #2ecc71;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .5s ease-in-out
+}
+
+.dashboard .widgets div:hover{
+	background-color: #bdc3c7;
+	color: #222
+}
+.dashboard .widgets div span {
+	font-size: 30px
+}
+.dashboard .widgets div:not(:last-child){
+	margin-right: 2%
+}
